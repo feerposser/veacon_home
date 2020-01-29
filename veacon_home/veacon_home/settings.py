@@ -121,7 +121,7 @@ USE_TZ = True
 STATIC_URL = '/static_home/'
 
 if not DEBUG:
-    STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL)
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static_home')
 
 STATICFILES_DIRS = [
     BASE_DIR+STATIC_URL,
